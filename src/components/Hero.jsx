@@ -108,17 +108,18 @@ export default function Hero() {
             +1 (516)516-6615
           </p>
         </div>
-        <div className="flex items-center bg-gray-100 p-4 rounded-lg">
+       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 flex-wrap gap-8 mt-8">
+        <div className="p-4 pr-6 bg-slate-300 border-l-8 border-transparent rounded-md shadow-md space-y-2">
           <img src={phoneicon} />
-          <p className="text-gray-600 ml-5 text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl object-cover">
-            +1 (718)888-9910
-          </p>
+          <p className="text-gray-600">+1 (516)516-6615</p>
         </div>
-        <div className="flex items-center bg-gray-100 p-4 rounded-lg">
+        <div className="p-4 pr-6 bg-slate-300 border-l-8 border-transparent rounded-md shadow-md space-y-2">
+          <img src={phoneicon} />
+          <p className="text-gray-600">+1 (718)888-9910</p>
+        </div>
+        <div className="p-4 pr-6 bg-slate-300 border-l-8 border-transparent rounded-md shadow-md space-y-2">
           <img src={emailicom} />
-          <p className="text-gray-600 ml-5 text-sm md:text-base lg:text-lg xl:text-xl 2xl:text-2xl object-cover">
-            nimbus@nimbus.com
-          </p>
+          <p className="text-gray-600">nimbus@nimbus.com</p>
         </div>
       </div>
     </>
